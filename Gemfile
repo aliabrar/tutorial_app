@@ -39,3 +39,6 @@ group :test do
   gem 'webrat', '0.7.1'
 end
 
+gem "autotest"
+gem "autotest-fsevent"
+gem "autotest-growl"
