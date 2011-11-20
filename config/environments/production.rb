@@ -59,6 +59,6 @@ TutorialApp::Application.configure do
   config.active_support.deprecation = :notify
 
   # Include Blueprint stylesheets
-  #config.assets.precompile += 
-  #  %w(blueprint/screen.css blueprint/print.css blueprint/ie.css)
+  config.assets.precompile += 
+    %w(blueprint/screen.css blueprint/print.css blueprint/ie.css)
 end
