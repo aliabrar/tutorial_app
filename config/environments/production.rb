@@ -60,5 +60,5 @@ TutorialApp::Application.configure do
 
   # Include Blueprint stylesheets
   config.assets.precompile += 
-    %w(blueprint/screen.css blueprint/print.css blueprint/ie.css)
+    %w(screen.css print.css ie.css custom.css)
 end
