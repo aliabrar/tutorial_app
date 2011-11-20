@@ -43,4 +43,4 @@ group :test do
   gem "ZenTest", '4.6.0'
 end
 
-
+gem 'pg'
