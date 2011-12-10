@@ -13,6 +13,12 @@ class MicropostsController < ApplicationController
     end
   end
 
+  def index
+    @user = User.find(params[:user_id])
+    @title = "Microposts by #{@user.name}"
+    @microposts = @user.microposts.paginate(:page => params[:page])
+  end
+
   def destroy
     @micropost.destroy
     redirect_back_or root_path
